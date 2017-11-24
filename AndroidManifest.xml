@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="abhijit.chess"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SinglePlayer"
+            android:label="@string/title_activity_single_player" >
+        </activity>
+        <activity
+            android:name=".DoublePlayer"
+            android:label="@string/title_activity_double_player" >
+        </activity>
+        <activity
+            android:name=".SingleBlack"
+            android:label="@string/title_activity_single_black" >
+        </activity>
+        <activity
+            android:name=".BlackCheckMated"
+            android:label="@string/title_activity_black_check_mated" >
+        </activity>
+        <activity
+            android:name=".WhiteCheckMated"
+            android:label="@string/title_activity_white_check_mated" >
+        </activity>
+        <activity
+            android:name=".Drawn"
+            android:label="@string/title_activity_drawn" >
+        </activity>
+        <activity
+            android:name=".SingleWhite"
+            android:label="@string/title_activity_single_white" >
+        </activity>
+    </application>
+
+</manifest>

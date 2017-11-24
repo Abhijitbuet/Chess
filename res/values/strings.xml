@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chess!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_single_player">SinglePlayer</string>
+    <string name="title_activity_double_player">DoublePlayer</string>
+    <string name="white">White</string>
+    <string name="black">Black</string>
+    <string name="title_activity_single_black">SinglePlayer</string>
+    <string name="title_activity_black_check_mated">BlackCheckMated</string>
+    <string name="title_activity_white_check_mated">WhiteCheckMated</string>
+    <string name="title_activity_drawn">Drawn</string>
+    <string name="title_activity_single_white">SingleWhite</string>
+
+</resources>
